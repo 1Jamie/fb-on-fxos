@@ -24,7 +24,8 @@ window.addEventListener('DOMContentLoaded', function() {
     // https://developer.mozilla.org/Web/API/Element.innerHTML#Security_considerations
     message.textContent = 'now loading fb';
 
-	window.fbAsyncInit = function() {
+	
+	window.fbAsyncInit = function fbAsyncInit() {
 		message.textContent = 'fb loaded will now try init';
 		FB.init({
 			appId: '1432144570413455',
