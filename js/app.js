@@ -28,6 +28,7 @@ window.addEventListener('DOMContentLoaded', function() {
 	window.fbAsyncInit = function fbAsyncInit() {
 		message.textContent = 'fb loaded will now try init';
 		FB.init({
+			status: true,
 			appId: '1432144570413455',
 			xfbml: true,
 			version: 'v2.3'
